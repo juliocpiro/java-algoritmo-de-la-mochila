@@ -1,4 +1,4 @@
-package com.kobuts.test;
+package com.kobuts.mochila.backtracking;
 
 public class Mochila {
 	 
@@ -55,8 +55,7 @@ public class Mochila {
     }
  
     public void clear() {
-    	System.out.println("***entro clear");
-        this.peso=0;
+    	this.peso=0;
         this.beneficio=0;
         for (int i = 0; i < this.elementos.length; i++) {
             this.elementos[i] = null;

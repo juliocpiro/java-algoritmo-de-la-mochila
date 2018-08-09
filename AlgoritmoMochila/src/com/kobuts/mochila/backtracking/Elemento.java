@@ -1,4 +1,4 @@
-package com.kobuts.test;
+package com.kobuts.mochila.backtracking;
 
 public class Elemento {
 	  
